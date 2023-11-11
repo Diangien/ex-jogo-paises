@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <main>
+        <div class="menu">
+            <div class="button-action" id="homeButton">
+                <img src="imagens/house-solid.svg" alt="" width="70px">
+            </div>
+
+            <div id="userButton" class="button-action">
+               <img src="imagens/user-regular (1).svg" alt="" width="70px">
+            </div>
+        </div>
+
+       
+
+        <div class="home-content">
+            <div class="banner">
+                <video autoplay muted loop>
+                    <source src="imagens/pexels_videos_1093662 (1080p).mp4" type="video/mp4">
+                </video>
+            </div>
+           
+            <div class="cadastro">
+                <h1 id="texto-inicial">Bem Vindo!</h1>
+                <h3><em><strong>Porque não cadastrar-se no nosso sistema?</strong></em> </h3>
+
+                <div class="passosCadastro">
+                    <p>
+                        <label for="txtNome">Digite o seu Nome: </label>
+
+                        <input type="text" id="txtNome">
+                    </p>
+
+                    <p>
+                        <label for="cbPais">Seleccione um País</label>
+                        <select name="" id="cbPais">
+                            <option value="angola">Angola</option>
+                            <option value="portugal">Portugal</option>
+                            <option value="espanha">Espanha</option>
+                            <option value="estadosUnidos">Estados Unidos</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="">Quando Nasceu? </label>
+                        <input type="date" name="" id="dataNasc">
+                        
+                    </p>
+                </div>
+
+                <button id="btnCadastrar">Mergulhar</button>
+            </div>
+            <div class="apresentacao caixa" style="display:none">
+            </div>
+
+            <div class="centrel-image" id="image-changing">
+               
+            </div>
+        </div>
+    </main>
+
+    
+</body>
+</html>
